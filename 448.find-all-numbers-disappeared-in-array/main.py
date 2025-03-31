@@ -2,7 +2,7 @@ from typing import List
 
 
 class Solution:
-    def findDisappearedNumbers(self, nums: List[int]):
+    def find_disappeared_numbers(self, nums: List[int]):
         set_nums = set(nums)
         ret = []
 
@@ -14,5 +14,5 @@ class Solution:
 
 
 sol = Solution()
-sol.findDisappearedNumbers([4, 3, 2, 7, 8, 2, 3, 1])
-sol.findDisappearedNumbers([1, 1])
+sol.find_disappeared_numbers([4, 3, 2, 7, 8, 2, 3, 1])
+sol.find_disappeared_numbers([1, 1])

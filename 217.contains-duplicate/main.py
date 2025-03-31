@@ -2,7 +2,7 @@ from typing import List
 
 
 class Solution:
-    def containeDuplicate(self, nums: List[int]):
+    def contains_duplicate(self, nums: List[int]):
         if len(set(nums)) == len(nums):
             print('false')
         else:
@@ -10,5 +10,5 @@ class Solution:
 
 
 sol = Solution()
-sol.containeDuplicate([1, 2, 3, 4])
-sol.containeDuplicate([1, 2, 3, 1])
+sol.contains_duplicate([1, 2, 3, 4])
+sol.contains_duplicate([1, 2, 3, 1])

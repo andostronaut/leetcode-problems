@@ -2,7 +2,7 @@ from typing import List
 
 
 class Solution:
-    def twoSum(self, nums: List[int], target: int):
+    def two_sum(self, nums: List[int], target: int):
         hashMap = {}
 
         for idx, val in enumerate(nums):
@@ -15,5 +15,5 @@ class Solution:
 
 
 sol = Solution()
-sol.twoSum([2, 7, 11, 15], 9)
-sol.twoSum([3, 2, 4], 6)
+sol.two_sum([2, 7, 11, 15], 9)
+sol.two_sum([3, 2, 4], 6)
